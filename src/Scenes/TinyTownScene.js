@@ -30,6 +30,7 @@ class TinyTown extends Phaser.Scene {
         this.grassLayer.setScale(4.0);
         this.treeLayer.setScale(4.0);
 
+        document.getElementById('description').innerHTML = '<h2>Welcome to One-House-Town!</h2>'
     }
 
     update() {
